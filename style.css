@@ -1,0 +1,143 @@
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.text{
+    color: #fff;
+}
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.services .title::after,
+.teams .title::after{
+    background: #111;
+    
+}
+.logout button{
+    border: 2px solid black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: crimson;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 10px;
+    
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: grey;
+    padding-left: 0pxpx;
+    text-align: center;
+    border-radius: 20px;
+   
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+ h2{
+
+    font-size: 50px;
+    background-color: #111;
+    color: #fff;
+    width: 500px;
+    border-radius: 100px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+h1:hover{
+    transition: all 0.3s ease;
+}
+ body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+ 
+
+    cursor: pointer;
+}
+button:hover{
+    transition: all 0.3s ease;
+}
+textarea{
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+   
+    color: black;
+
+}
+textarea::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+}
+.last{
+  
+ 
+    color: black;
+    position: fixed;
+    top:0;
+}
+
+@media (max-width: 15000px){
+
+    .services .serv-content .card{
+
+        margin-bottom: 20px;
+        
+    }
+}
+@media (max-width: 649px) {
+
+    .services .serv-content .card{
+        margin-left: 100px;
+        width: 50%;
+        display: inline-block;
+    }
+}
+@media (max-width: 649px) {
+
+     h2{
+        font-size: 50px;
+   
+        color: #fff;
+        width: 250px;
+ 
+        transition: color 0.3s ease;
+        cursor: pointer;
+        transition: all 0.3s ease;
+     text-align: center;
+   
+    }
+}
